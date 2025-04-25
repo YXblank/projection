@@ -3,8 +3,11 @@ Here we have created a description of the pseudo-code to help understanding the 
 ALGORITHM  Transparent Object Shape Extraction With Energy Function
 
   INPUT: Depth image, Grayscale image, HSV image, max_iterations=100, epsilon=0.01
+  
   OUTPUT: Identified region of transparent object, optimized weights A and B
+  
   // Step 1: Initialize data structures to store intermediate pixel data
+  
   INITIALIZE D as potential_transparent_pixels  // Store pixels with potential transparency based on depth change
   INITIALIZE R as reflection_region_pixels      // Store pixels of the region with maximum reflection intensity
   INITIALIZE C as contour_data                  // Store contour data
