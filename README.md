@@ -1,5 +1,7 @@
 Here we have created a description of the pseudo-code to help understanding the code processing flow:
+
 ALGORITHM  Transparent Object Shape Extraction With Energy Function
+
   INPUT: Depth image, Grayscale image, HSV image, max_iterations=100, epsilon=0.01
   OUTPUT: Identified region of transparent object, optimized weights A and B
   // Step 1: Initialize data structures to store intermediate pixel data
